@@ -1,11 +1,15 @@
 # Projekt 5 WIP
 
-1.Wczytaj dane z pliku daneXX.txt. Zaproponuj i zrealizuj podzia³ tych danych na dane treningowe i dane testowe,
-2.Zaproponuj optymaln¹ sieæ neuronow¹ aproksymuj¹c¹ wczytane dane. U¿yj nieliniowej funkcji aktywacji w warstwie ukrytej (np. tanh lub sigmoidalna). Stosuj¹c propagacjê wsteczn¹ b³êdu wytrenuj sieæ metod¹ wsadow¹.
-3.Oceñ dzia³anie sieci pod k¹tem dopasowania (zbyt ma³e, optymalne, zbyt du¿e dopasowanie).
-4.Zmieñ sposób podawania sieci z wsadowej no on line. Wytrenuj sieæ. Oceñ dzia³anie sieci.
-5.Zaproponuj sieæ z funkcj¹ aktywacji RELU. Stosuj¹c propagacjê wsteczn¹ b³êdu wytrenuj sieæ metod¹ wsadow¹.
+1.Wczytaj dane z pliku daneXX.txt. Zaproponuj i zrealizuj podziaÅ‚ tych danych na dane treningowe i dane testowe,
 
-Gdzie XX jest numerem zestawu. W ka¿dej linii pliku pierwsza liczba okreœla wejœcie a druga wartoœæ wyjœcia.
+2.Zaproponuj optymalnÄ… sieÄ‡ neuronowÄ… aproksymujÄ…cÄ… wczytane dane. UÅ¼yj nieliniowej funkcji aktywacji w warstwie ukrytej (np. tanh lub sigmoidalna). StosujÄ…c propagacjÄ™ wstecznÄ… bÅ‚Ä™du wytrenuj sieÄ‡ metodÄ… wsadowÄ….
 
-Proszê nie u¿ywaæ dostêpnych bibliotek sieci neuronowych. Do implementacji sieci proszê u¿yæ macierzy stosuj¹c bibliotekê numpy.
+3.OceÅ„ dziaÅ‚anie sieci pod kÄ…tem dopasowania (zbyt maÅ‚e, optymalne, zbyt duÅ¼e dopasowanie).
+
+4.ZmieÅ„ sposÃ³b podawania sieci z wsadowej no on line. Wytrenuj sieÄ‡. OceÅ„ dziaÅ‚anie sieci.
+
+5.Zaproponuj sieÄ‡ z funkcjÄ… aktywacji RELU. StosujÄ…c propagacjÄ™ wstecznÄ… bÅ‚Ä™du wytrenuj sieÄ‡ metodÄ… wsadowÄ….
+
+Gdzie XX jest numerem zestawu. W kaÅ¼dej linii pliku pierwsza liczba okreÅ›la wejÅ›cie a druga wartoÅ›Ä‡ wyjÅ›cia.
+
+ProszÄ™ nie uÅ¼ywaÄ‡ dostÄ™pnych bibliotek sieci neuronowych. Do implementacji sieci proszÄ™ uÅ¼yÄ‡ macierzy stosujÄ…c bibliotekÄ™ numpy.
