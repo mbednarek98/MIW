@@ -31,7 +31,7 @@ plt.show()
 
 """## Przykład autoencodera"""
 
-from keras.layers import Input, Dense, Conv2D, Conv2DTranspose, LeakyReLU
+from keras.layers import Input, Dense, Conv2D, UpSampling2D, MaxPooling2D, Conv2DTranspose, LeakyReLU
 from keras import Model, utils
 
 # Rozbuduj sieć konwolucyjną z projektu 6 do autokodera, poprzez usunięcie warstw klasyfikujących i dodanie symetrycznych warstw Conv2DTranspose.
@@ -51,9 +51,8 @@ decoded = Conv2DTranspose(1,(3,3),activation="sigmoid")(decoded_1)
 auto_encoder = Model(inputs, decoded)
 auto_encoder.compile()
 auto_encoder.summary()
-utils.plot_model(auto_encoder, show_shapes=True, dpi=200)
 
-auto_encoder.compile(loss="binary_crossentropy",optimizer=Adam(),metrics=None)
+auto_encoder.compile(loss="binary_crossentropy",optimizer='adam',metrics=None)
 
 # Wytrenuj model używając jedynie danych wejściowych, wyjście modelu równa się jego wejściu.
 auto_encoder.fit(x_train,x_train,batch_size=21,epochs=1,validation_data=(x_test,x_test))
@@ -68,7 +67,7 @@ for i in range(5):
   plt.imshow(x_test[i].reshape(28,28))
   plt.show()
   print("Encoded")
-  plt.imshow(encoded_imgs[10].reshape(1,20,25,1).reshape(20,25))
+  plt.imshow(encoded_imgs[i].reshape(1,20,25,1).reshape(20,25))
   plt.show()
   print("After")
   result = auto_encoder.predict(x_test[i].reshape(1,28,28,1))
