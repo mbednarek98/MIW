@@ -6,4 +6,4 @@
 5. [Projekt 5](PRO5/s18579_gr12c_pro5.py) - Sieć neuronowa                                          (0/10)
 6. [Projekt 6](PRO6/s18579_gr12c_pro6.py) - CNN                                                     (10/10)
 7. [Projekt 7](PRO7/s18579_gr12c_pro7.py) - RNN                                                     (8/10)
-8. [Projekt 8](PRO8/s18579_gr12c_pro8.py) - AutoEncoder                                             (??/10)
+8. [Projekt 8](PRO8/s18579_gr12c_pro8.py) - AutoEncoder                                             (10/10)
