@@ -7,3 +7,4 @@
 6. [Projekt 6](PRO6/s18579_gr12c_pro6.py) - CNN                                                     (10/10)
 7. [Projekt 7](PRO7/s18579_gr12c_pro7.py) - RNN                                                     (8/10)
 8. [Projekt 8](PRO8/s18579_gr12c_pro8.py) - AutoEncoder                                             (10/10)
+9. [Projekt](PRO/s18579_gr12c_pro.pl) - Projekt Prolog                                              (23/30)
